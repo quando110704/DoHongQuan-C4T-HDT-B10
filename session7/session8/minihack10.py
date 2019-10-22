@@ -1,8 +1,7 @@
-numbers = (input("enter numbers: ").split(' ,')
+numbers = input("enter numbers: ").split(' ,')
 out = []
-i = int(numbers)
 for i in numbers:
-    if i % 2 == 0:
+    if int(i) % 2 == 0:
         out.append(i)
         print(out)
     else:
